@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio responsive complete</title>
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Nadège GAUTIER</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="#Concernant" class="nav__link">Concernant</a></li>
+                    <li class="nav__item"><a href="#compétences" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="cv.html" class="nav__link">Curiculum vitae</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>BIENVENUE</span><br></h1>
+
+                <div class="home__scroll"
+                    <a href="#Concernant" class="home__scroll-link"><i class='bx bxs-up-arrow-alt'></i>Scroll down</a>
+            </div>
+
+            <img src="assets/IMG/WIN_20190731_16_34_58_Pro.jpg" alt="" class="home__img">
+        </section>
+        <!--===== CONCERNANT =====-->
+        <section class="Concernant section" id="Concernant">
+            <h2 class="section-title">concernant</h2>
+
+            <div class="Concernant__container bd-grid">
+                <div class="Concernant__img">
+                    <img src="assets/IMG/image-métier-developpeur-testeur.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="Concernant__subtitle">Je suis Nadège</h2>
+                    <span class="Concernant__profession">Testeur ISTQB et Développeur Full Stack débutant</span>
+                    <p class="Concernant__text">Mon objectif est d'intégrêt une entreprise innovante et avec un bon esprit d'équipe</p>
+
+                    <div class="Concernant__social"></div>
+                        <a href="www.linkedin.com/in/nadège-gautier-8b0b3b301" class="Concernant__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="" class="Concernant__social-icon"><i class='bx bxl-github'></i></a>
+                        <a href="" class="Concernant__social-icon"><i class='bx bxl-dribbble' ></i></a>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <!--===== COMPETENCES =====-->
+        <section class="compétences section" id="compétences">
+            <h2 class="section-title">compétences</h2>
+
+            <div class="compétences bd-grid">
+                <h3 class="compétences">Développeur web Full Stack</h3>
+                <span class="compétences__name">HTLM</span>
+                <span class="compétences__name">CSS</span>
+                <span class="compétences__name">JavaScript</span>
+                <span class="compétences__name">SCSS</span>
+                <span class="compétences__name">React</span>
+                <span class="compétences__name">Vue</span>
+
+                <h3 class="compétences__box">Testeur logiciel ISTQB</h3>
+                <span class="compétences__name">Squash TM</span>
+                <span class="compétences__name">Jira</span>
+                <span class="compétences__name">Xray</span>
+                <span class="compétences__name">Appium</span>
+                <span class="compétences__name">SoapUI</span>
+                <span class="compétences__name">Katalon Studio</span>
+                <span class="compétences__name">robot Framework</span>
+            </div>
+            <div class="Compétences__img">
+            </div>
+        </section>
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <img src="assets/IMG/métier2.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="" class="portfolio__link-name">View details></a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/IMG/métier1.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="" class="portfolio__link-name">View details></a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/IMG/métier4.jpg" alt="">
+                    <div class="portfolio__link">
+                        <a href="" class="portfolio__link-name">View details></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">nade04ge@gmail.com</span>
+
+                    <h3 class="contact__subtitle">TELEPHONE</h3>
+                    <span class="contact__text">07 63 59 71 82</span>
+
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Le Mans - FRANCE</span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="submit" value="Envoie" class="contact__button">
+                </form>
+                    
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <foother class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Nadège GAUTIER</h2>
+                <p class="footer__text">Je suis Nadège et c'est mon site web personnel</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Accueil</a></li>
+                    <li><a href="#concernant" class="footer__link">Concernant</a></li>
+                    <li><a href="#compétences" class="footer__link">Compétences</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#cv" class="footer__link">Curiculum vitae</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">LIEN</h2>
+                <a href="" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/nadège-gautier-8b0b3b301" class="footer__social"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </foother>
+    <!-- ===== SCROLL REVEAL ===== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="assets\JS\main.js"></script>
+    
+</body>
+</html>
